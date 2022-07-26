@@ -2,11 +2,12 @@ package com.itheima.reggie.common;
 
 import lombok.Data;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
 @Data
-public class R<T> {
+public class R<T> implements Serializable {//implements Serializable可以让r的返回值进行缓存，实现序列号
     private Integer code;//编码1 成功 0 和其他失败
 
     private String msg;//错误信息
