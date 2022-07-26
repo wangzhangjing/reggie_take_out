@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ab848c9-950e-46c9-82f8-51dc12c7490e" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/config/RedisConfig.java" afterDir="false" />
+    <list default="true" id="7ab848c9-950e-46c9-82f8-51dc12c7490e" name="变更" comment="加入redis，缓存验证码和菜品">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,6 +83,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\mavenprojects\reggie_take_out\src\main\java\com\itheima\reggie\entity" />
@@ -147,7 +150,8 @@
       <workItem from="1658581261819" duration="955000" />
       <workItem from="1658653934824" duration="162000" />
       <workItem from="1658752219033" duration="1422000" />
-      <workItem from="1658753711673" duration="767000" />
+      <workItem from="1658753711673" duration="1079000" />
+      <workItem from="1658795133429" duration="5854000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1658752292175</created>
@@ -163,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658752766568</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="加入redis，缓存验证码和菜品">
+      <created>1658754686854</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658754686854</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +193,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="变更" />
-    <option name="LAST_COMMIT_MESSAGE" value="变更" />
+    <MESSAGE value="加入redis，缓存验证码和菜品" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入redis，缓存验证码和菜品" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -191,11 +203,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/itheima/reggie/common/MyMetaObjecthandler.java</url>
           <line>19</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/itheima/reggie/controller/UserController.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/itheima/reggie/common/MyMetaObjecthandler.java</url>
