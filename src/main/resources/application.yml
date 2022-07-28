@@ -55,4 +55,4 @@ mybatis-plus:
       id-type: ASSIGN_ID
 #指定文件路径
 reggie:
-  path: D:\app\zywj\
+  path: /usr/local/img/
